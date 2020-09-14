@@ -23,31 +23,46 @@ export default function Home() {
       </div>
       <main className={styles.main}>
         <HomeSection1 />
-        <div className={styles.contentGrid}>
+        <div className={`${styles.contentGrid} ${styles.featuresSection}`}>
           <h3>Check out what's new!</h3>
           <div className={styles.contentGridBody}>
             <div className={styles.contentGridItem}>
               <div className={`${styles.contentCard} ${styles.shadow2}`}>
-                <img />
-                <p>This Is A Card</p>
-                <p>This is a second headline</p>
-                <p>this is a footer</p>
+                <img src='/SunshineOGj.jpg'/>
+                <div className={styles.contentCardBody}>
+                  <h3><span style={{backgroundColor: '#48D922'}}>Sunshine</span> OG</h3>
+                  <p>This is a second headline</p>
+                  <p>this is a footer</p>
+                </div>
+                <div className={styles.contentCardButton}>
+                  <p>Learn More</p>
+                </div>
               </div>
             </div>
             <div className={styles.contentGridItem}>
               <div className={`${styles.contentCard} ${styles.shadow2}`}>
-                <img />
-                <p>This Is A Card</p>
-                <p>This is a second headline</p>
-                <p>this is a footer</p>
+                <img src='/clone-tray.jpg'/>
+                <div className={styles.contentCardBody}>
+                  <h3><span style={{backgroundColor: '#48D922'}}>Current</span> Inventory</h3>
+                  <p>This is a second headline</p>
+                  <p>this is a footer</p>
+                </div>
+                <div className={styles.contentCardButton}>
+                <p>Learn More</p>    
+                </div>
               </div>
             </div>
             <div className={styles.contentGridItem}>
               <div className={`${styles.contentCard} ${styles.shadow2}`}>
-                <img />
-                <p>This Is A Card</p>
-                <p>This is a second headline</p>
-                <p>this is a footer</p>
+                <img src='/clone.jpg'/>
+                <div className={styles.contentCardBody}>
+                  <h3><span style={{backgroundColor: '#48D922'}}>Integrated</span> Pest Management</h3>
+                  <p>This is a second headline</p>
+                  <p>this is a footer</p>
+                </div>
+                <div className={styles.contentCardButton}>
+                  <p>Learn More</p>
+                </div>
               </div>
             </div>
           </div>

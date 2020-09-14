@@ -21,8 +21,8 @@ const Header = () => {
       </div>
       <div style={{display: 'flex', alignItems: 'center',justifyContent: 'space-around', width: '120px'}}>
         <i style={{ fontSize: '30px'}} className="fab fa-instagram"></i>
-        <i style={{ fontSize: '30px'}} class="fab fa-facebook-square"></i>
-        <i style={{ fontSize: '30px'}} class="fab fa-twitter"></i>
+        <i style={{ fontSize: '30px'}} className="fab fa-facebook-square"></i>
+        <i style={{ fontSize: '30px'}} className="fab fa-twitter"></i>
       </div>
     </div>
   )
